@@ -96,3 +96,4 @@ class Util():
 
     def extract_mentions(self, text):
         return re.findall(self.mention_pattern, text)
+    
