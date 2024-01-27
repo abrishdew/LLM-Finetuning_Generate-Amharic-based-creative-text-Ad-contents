@@ -7,3 +7,5 @@ ENV/
 env.bak/
 venv.bak/
 my_env
+my_env
+/data
