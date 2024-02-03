@@ -11,5 +11,5 @@ my_env
 *.json
 =======
 my_env
-/data
->>>>>>> 18dee415a6695a19a5bc83d54a8405f42807a58b
+data
+models
