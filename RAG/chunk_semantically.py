@@ -1,13 +1,19 @@
 import re
 import numpy as np
-from combine_sentence import combine_sentences
+from combine_sentences import combine_sentences
+import calculate_cosine_distance
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_openai.embeddings import OpenAIEmbeddings
 from sklearn.metrics.pairwise import cosine_similarity
-from calculate_cosine_distance import calculate_cosine
-
+from calculate_cosine_distance import calculate_cosine_distances
+from dotenv import load_dotenv
+import os
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
 def semantic_retriever(essay):
+    
+
     try:
         single_sentences_list = re.split(r'(?<=[.?!])\s+', essay)
         sentences = [{'sentence': x, 'index': i} for i, x in enumerate(single_sentences_list)]
@@ -29,7 +35,7 @@ def semantic_retriever(essay):
             sentence['combined_sentence_embedding'] = embeddings[i]
 
         try:
-            distances, sentences = calculate_cosine(sentences)
+            distances, sentences = calculate_cosine_distances(sentences)
         except Exception as e:
             print(f"Error in calculate_cosine_distance: {e}")
             return []
