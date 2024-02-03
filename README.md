@@ -37,4 +37,11 @@ only) to help it understand Ads better and summarize it for us(It will generate 
 Finally, we will have a RAG system with current campaigns and Brand or Product information
 so it will generate a more likable, tailored and successful Ad.
 
+### Usage
+Clone the repo: git clone https://github.com/abrishdew/LLM-Finetuning_Generate-Amharic-based-creative-text-Ad-contents
+Install dependencies: pip install -r requirements.txt
+
+## License 
+
+
 
