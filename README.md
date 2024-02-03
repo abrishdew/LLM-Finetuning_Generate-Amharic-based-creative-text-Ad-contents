@@ -42,6 +42,8 @@ Clone the repo: git clone https://github.com/abrishdew/LLM-Finetuning_Generate-A
 
 Install dependencies: pip install -r requirements.txt
 
+*CREATE YOUR ADS NOW!*
+
 ## License 
 
 
