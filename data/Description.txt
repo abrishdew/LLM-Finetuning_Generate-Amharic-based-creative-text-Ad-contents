@@ -31,3 +31,6 @@ date: message broadcast datetime.
 label (s): one or more data labels relevant to your supervised training 
 cleaned: A directory holding all the telegram channel’s cleaned message data.
 final: A directory holding all the message data depending on the need; for example this directory might hold the channel's word frequencies, n_grams, and many more.
+
+NOTE :
+    Not hosted on Github due to large size
