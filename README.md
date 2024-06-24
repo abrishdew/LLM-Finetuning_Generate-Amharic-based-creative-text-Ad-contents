@@ -11,7 +11,7 @@ integrating powerful AI capabilities for Amharic text manipulation, in particula
 Amharic RAG pipeline that will help generate Amharic based creative text Ad contents given
 campaign information such as brief (brand and product information) and the content history of
 a telegram channel. This project makes sure that their advertisements are both catchy and
-relevant to the Telegram community. To achieve this, the technology is required to have quality
+relevant to the Telegram community. To achieve this, it is required to have quality
 **amharic text embedding** and **text generation**.
 
 ### Project Guide
