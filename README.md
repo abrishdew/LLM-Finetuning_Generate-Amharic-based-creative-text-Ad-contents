@@ -1,4 +1,4 @@
-# LLM Finetuning: Generate Amharic based creative text Ad contents
+# LLM Finetuning: Generate Amharic text based creatives /Ad contents/
 ***
 
 ### Project Overview
